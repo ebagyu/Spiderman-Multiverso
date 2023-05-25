@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url(global.css);
+@import url(/assets/CSS/components/navigator.css);
+@import url(/assets/CSS/components/pills.css);
+@import url(/assets/CSS/components/link-button.css);
+@import url(/assets/CSS/components/gallery.css);
+@import url(/assets/CSS/components/spider-png.css);
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+    background-color: aqua;
+}
+
+.s-wrapper video {
+    position: fixed;
+    width: 100%;
+
+}
+
+.s-wrapper .s-left-column {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+    height: 100%;
+    width: 100%;
+    padding-left: 130px;
+    position: relative;
+}
+
+.s-wrapper s.s-main-content__top{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-wrapper s.s-main-content__bottom{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.s-wrapper .s-main-content .s-logo img {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: -10px;
+    width: 85vh;
+}
+
+.s-wrapper .s-main-content__top .s-description {
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 60%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-decription__text p{
+    color: white;
+    line-height: 170%;
+}
+
+.s-wrapper .s-main-content__top .s-description .pills{
+ margin-bottom: 20px;
+}
+
+.s-wrapper .s-main-content .s-links {
+    padding: 15px;
+    padding-left: 0;
+}
+
+.s-wrapper .s-main-content .s-links ul {
+    display: flex;
+    flex-direction: row;
+}

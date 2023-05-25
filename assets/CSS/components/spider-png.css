@@ -1,0 +1,22 @@
+.s-spiderman-01-01 {
+    background-image: url('/assets/images/spider-man-01.png');
+    background-repeat: no-repeat;
+    background-size: 92vh;
+    background-position-x: right;
+
+}
+
+.s-spiderman-01-02 {
+    background-image: url('/assets/images/spider-man-02.png');
+    background-repeat: no-repeat;
+    background-size: 75vh;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.s-spiderman-01-03 {
+    background-image: url('/assets/images/spider-man-03.png');
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    background-position-x: right;
+}

@@ -1,0 +1,22 @@
+.gallery ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery ul li {
+    margin-left: 25px;
+}
+
+.gallery ul li:first-child {
+    margin-left: 0px;
+}
+
+.gallery ul li a img {
+    border: solid 3px white;
+    border-radius: 15px;
+    width: 40vh;
+}
+
+.gallery ul li a img:hover {
+    transform: scale(0.9);
+}
