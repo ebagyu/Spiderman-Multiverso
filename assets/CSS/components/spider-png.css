@@ -1,4 +1,4 @@
-.s-spiderman-01-01 {
+.s-spiderman-TB-01 {
     background-image: url('/assets/images/spider-man-01.png');
     background-repeat: no-repeat;
     background-size: 92vh;
@@ -6,7 +6,24 @@
 
 }
 
-.s-spiderman-01-02 {
+.s-spiderman-TB-02 {
+    background-image: url('/assets/images/spiderman01-02.png');
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position-x: right;
+
+}
+
+.s-spiderman-TB-03 {
+    background-image: url('/assets/images/spiderman01-03.png');
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position-x: right;
+
+}
+
+
+.s-spiderman-TM-01 {
     background-image: url('/assets/images/spider-man-02.png');
     background-repeat: no-repeat;
     background-size: 75vh;
@@ -14,9 +31,33 @@
     background-position-y: center;
 }
 
-.s-spiderman-01-03 {
+.s-spiderman-TM-02 {
+    background-image: url('/assets/images/spiderman02-02.png');
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.s-spiderman-TM-03 {
+    background-image: url('/assets/images/spiderman02-03.png');
+    background-repeat: no-repeat;
+    background-size: 75vh;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.s-spiderman-AD-01 {
     background-image: url('/assets/images/spider-man-03.png');
     background-repeat: no-repeat;
     background-size: 50vh;
     background-position-x: right;
 }
+
+.s-spiderman-AD-02 {
+    background-image: url('/assets/images/spiderman03-02.png');
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position-x: right;
+}
+
